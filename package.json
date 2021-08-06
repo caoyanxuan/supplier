@@ -1,0 +1,64 @@
+{
+  "name": "supplier-sources",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "caoyanxuan",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "yapi": "gen create",
+    "dev:home": "APP_ROOT=packages/home umi dev",
+    "dev:admin": "APP_ROOT=packages/admin umi dev",
+    "dev:purchaser": "APP_ROOT=packages/purchaser umi dev",
+    "dev:supplier": "APP_ROOT=packages/supplier umi dev",
+    "build:home": "APP_ROOT=packages/home umi build",
+    "build:admin": "APP_ROOT=packages/admin umi build",
+    "build:purchaser": "APP_ROOT=packages/purchaser umi build",
+    "build:supplier": "APP_ROOT=packages/supplier umi build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pangoo check --pre-commit",
+      "commit-msg": "pangoo check --commit-msg"
+    }
+  },
+  "dependencies": {
+    "@emotion/css": "^11.1.3",
+    "@mro/detail-info-board": "^0.0.22",
+    "@mro/list-search": "^0.0.13",
+    "@mro/list-table": "^0.0.9",
+    "@yui/icons": "^0.0.10",
+    "@yui/ui": "^1.0.0-alpha.3",
+    "ahooks": "^2.9.6",
+    "axios": "^0.21.1",
+    "jsencrypt": "^3.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@fe/eslint-config-pangoo-react": "latest",
+    "@fe/pangoo-cli": "latest",
+    "@fe/pangoo-config-prettier": "latest",
+    "@fe/yapi-generator": "^0.0.23",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@umijs/plugin-pangoo": "latest",
+    "@umijs/plugin-qiankun": "^2.24.1",
+    "@umijs/preset-react": "1.x",
+    "@umijs/test": "^3.0.11",
+    "cross-env": "^7.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "husky": "^4.2.5",
+    "prettier": "^1.19.1",
+    "tslib": "^2.2.0",
+    "typescript": "^3.7.4",
+    "umi": "3.5.14"
+  },
+  "main": "index.js",
+  "description": "## 开始",
+  "keywords": []
+}

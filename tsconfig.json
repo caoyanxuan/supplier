@@ -1,0 +1,47 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "esnext",
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "strictPropertyInitialization": false,
+    "target": "ES6",
+    "strict": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "importHelpers": true,
+    "lib": ["es7", "dom", "es2017.object"],
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "@admin/*": ["./packages/admin/*"],
+      "@supplier/*": ["./packages/supplier/*"],
+      "@purchase/*": ["./packages/purchase/*"],
+      "@common/*": ["./packages/common/*"],
+    },
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "./packages/",
+    "./global.d.ts",
+  ],
+  "exclude": [
+    "./node_modules",
+    "./packages/**/.umi",
+    "./packages/**/.umi-production",
+    "./**/node_modules",
+    "./services/",
+    "./dist",
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "admin",
+  "version": "0.0.1",
+  "description": "供应商寻源-运营端",
+  "devDependencies": {
+    "@umijs/plugin-pangoo": "*",
+    "@umijs/plugin-qiankun": "*",
+    "@umijs/preset-react": "*"
+  }
+}

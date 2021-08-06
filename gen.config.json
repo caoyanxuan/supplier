@@ -1,0 +1,18 @@
+{
+  "serverUrl": "http://yapi.yzw.cn",
+  "outputDir": "./services",
+  "httpPath": "./packages/common/utils/http-util.ts",
+  "projects": [
+    {
+      "token": "e8c89074d56170a3c9fb8160db03e426a8518852281184b68bee06a5fc63383b",
+      "fileName": "yapi",
+      "jsonFile": "",
+      "categories": [
+        {
+          "id": 1722,
+          "fileName": "common-file"
+        }
+      ]
+    }
+  ]
+}
