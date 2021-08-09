@@ -23,6 +23,7 @@ $ yarn build:[prjName] // 如： yarn run build:admin
             ├── components    - 公共组件
             ├── utils         - 公共工具
             ├── assets        - 公共静态文件
+            ├── api           - 公共接口
             └── config        - 公共配置
         ├── admin             - [运营端]
             ├── .umi

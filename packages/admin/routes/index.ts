@@ -9,22 +9,18 @@ export interface RouteConfig {
   icon?: React.ReactNode;
   component?: string;
   exact?: boolean;
-  access?: string;
-  auth?: string | string[];
   routes?: RouteConfig[];
-
-  /** 是否是菜单 */
-  isMenu?: boolean;
-  /** 隐藏Layout */
-  noLayout?: boolean;
-  /** 隐藏左侧菜单 */
-  noNav?: boolean;
   redirect?: string;
-
-  /**面包屑 */
-  breadcrumb?: IBreadcrumbItem[];
 }
 
-const routes: RouteConfig[] = [demoRoutes];
+const routes: RouteConfig[] = [
+  {
+    path: '/',
+    component: '../../common/components/Layout.tsx',
+    routes: [
+      demoRoutes,
+    ],
+  },
+];
 
 export default routes;

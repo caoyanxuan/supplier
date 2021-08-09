@@ -2,7 +2,7 @@
  * @description: 文件相关接口  
  * @author by Generator
  * @desc 文件相关接口
- * @createTime 2021-08-06 17:34:50
+ * @createTime 2021-08-09 16:11:00
  **/
 import * as Types from './types';
 import * as UrlKeys from './urls';

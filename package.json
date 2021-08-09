@@ -30,7 +30,7 @@
     "@mro/list-search": "^0.0.13",
     "@mro/list-table": "^0.0.9",
     "@yui/icons": "^0.0.10",
-    "@yui/ui": "^1.0.0-alpha.3",
+    "@yui/ui": "^1.0.0-alpha.5",
     "ahooks": "^2.9.6",
     "axios": "^0.21.1",
     "jsencrypt": "^3.2.1",

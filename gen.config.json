@@ -1,6 +1,6 @@
 {
   "serverUrl": "http://yapi.yzw.cn",
-  "outputDir": "./services",
+  "outputDir": "./packages/common/api",
   "httpPath": "./packages/common/utils/http-util.ts",
   "projects": [
     {

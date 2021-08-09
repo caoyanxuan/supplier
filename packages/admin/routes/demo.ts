@@ -1,9 +1,8 @@
 
 export default {
-  path: '/',
-  component: '../pages/demo',
-  // routes: [
-  //   { path: '/list', component: 'list' },
-  //   { path: '/admin', component: 'admin' },
-  // ],
+  path: 'demo',
+  routes: [
+    { exact: false, path: 'detail', component: '../pages/demo/Detail' },
+    { exact: false, path: '/', component: '../pages/demo' },
+  ],
 };
